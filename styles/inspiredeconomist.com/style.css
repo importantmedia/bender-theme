@@ -1,0 +1,113 @@
+/* CSS Document */
+
+body {
+	background-image: url(bodyBG.png);
+	background-repeat: repeat-x;
+	background-color: #FFF; 	
+}
+
+a, a:link, a:visited, a:active {
+	color: #888C07; text-decoration:underline;
+}
+a:hover {
+	color: #700D21;
+}
+
+#header {
+	position: relative;
+}
+
+#header img {
+	margin: 0;
+}
+
+#header .ad-728x90 {
+	position: absolute;
+	top: 5px;
+	left: 30px;
+	width: 728px;
+	height: 90px;
+}
+
+h1 {	
+	font-size:3em;
+	line-height:0;
+	margin-bottom:0;
+}
+
+#page {
+	background-color: #FFFFFF;
+	padding: 0;
+}
+
+#content_container {
+	background: url(bg.png) repeat-y 0 0;
+}
+
+.addthis {
+	background-color: #FFFFFF;
+	border: none;
+}
+.postinfo .author a {
+	color: #F89126;
+}
+.postinfo .author a:hover {
+	color: #FFC283;
+}
+.postactions {
+	background-color:#F8F7E5;
+	border-bottom:1px solid #DAD8B2;
+	border-top:1px solid #DAD8B2;
+}
+.post h2 {
+	font-size: 2em;
+	border-bottom:1px solid #4F433A;
+	line-height: 1.2em;
+	letter-spacing: -.03em;
+	font-weight: normal;
+	padding-bottom: 0.3em;
+}
+.post h2 a, .post h2 a:link, .post h2 a:visited, .post h2 a:active {
+	color: #888C07; text-decoration: none;
+}
+
+.post h2 a:hover {
+	color: #4F433A;
+}
+.post img {
+	border: 1px solid #DAD8B2;
+	background-color:#F8F7E5;
+	padding: 6px;
+}
+
+#sidebar ul li h2 {
+	text-transform: uppercase;
+	font-size: 1em;
+	line-height: 1.75em;
+	padding: 2px 0 0 8px;
+	color: #FFFFFF;
+	border-bottom: 1px solid #585E34;
+	background-color: #4F433A;
+}
+
+#side_ad {
+        padding-top: 1em; 
+}
+
+#tagcloud a:link, #tagcloud a:visited, #tagcloud a:active {
+	color:#585E34;
+}
+#tagcloud a:hover {
+	color:#888C07;
+}
+
+#footer {
+	border-top: 5px solid #4F433A;
+	padding-bottom: none;
+	text-align: center;
+}
+
+#footer p {
+	padding: 0;
+	margin: 0;
+}

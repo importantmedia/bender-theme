@@ -1,0 +1,58 @@
+body {
+	background-color: #515932;
+	font-family: "Helvetica Neue","Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+	font-size: 75%;
+}
+h1,h2,h3,h4,h5,h6 { 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#page {
+	border-color: #fff;
+	border-style: solid;
+	border-width: 1.5em;
+	border-bottom: 0;
+	background-color: #fff;
+}
+
+#content_container {
+	background: #f7f7f7;
+}
+
+#content {
+	background: #fff;
+}
+
+a, a:link, a:visited, a:active {
+	color: #829900;
+}
+
+.post h2 a {
+	font-weight: bold;
+}
+
+.post h2 a, .post h2 a:link, .post h2 a:visited, .post h2 a:active {
+	color: #313979;
+}
+
+.post h2 a:hover {
+	color: #5F6FEB;
+	text-decoration: none;
+}
+
+#sidebar {
+	background: #efefef;
+}
+
+#sidebar ul {
+	background: #efefef;
+}
+
+#footer {
+	margin: 0 -1.5em;
+	width: auto;
+	background-color: #515932;
+	border-top: 1.5em solid #fff;
+	text-align: center;
+	color: #fff;
+}

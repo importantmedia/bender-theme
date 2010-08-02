@@ -1,0 +1,176 @@
+body {
+	font-family: "Helvetica Neue", Tahoma, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Helvetica Neue", "Trebuchet MS", sans-serif;
+}
+
+#page_container {
+	padding-top: 1em;
+}
+
+a, a:link, a:visited, a:active {
+	color: #924f0d;
+}
+
+h2 a:hover {
+	text-decoration: none;
+}
+
+#header {
+	position: relative;
+	float: left;
+	width: 250px;
+}
+
+#content_container {
+	border-top: 5px solid #043D56;
+	border-bottom: 5px solid #043D56;
+}
+
+.post .more-link {
+	display: block;
+	margin: 0;
+	clear: none;
+}
+
+.post h2 {
+	font-size: 2em;
+	border-bottom:1px solid #E9E4DC;
+	line-height: 1.2em;
+	letter-spacing: -.03em;
+	font-weight: normal;
+	padding-bottom: 0.3em;
+}
+
+.post h2  a, .post h2  a:link, .post h2  a:visited, .post h2  a:active {
+	color: #1B3E56;
+}
+
+#sidebar ul li h2 {
+	line-height: 27px;
+	padding: 0 0 0 14px;
+}
+
+
+#content .widget {
+	margin: 0pt 10px 0pt -10px;
+	position: relative;
+	padding-bottom: 1em;
+}
+
+#content .widget.full {
+	width: 100%;
+	clear: both;
+}
+
+#content .widget ul {
+	margin: 0 14px 1em 2em;
+}
+
+#content .widget h2 {
+	margin-right: 14px;
+	margin-bottom: 1em;
+	font-size: 1.4em;
+	line-height: 32px;
+	font-weight: normal;
+	color: #fff;
+}
+#content .widget .title-sleeve {
+	display: block;
+	padding: 0 14px;
+	margin: 0 5px 0 0;
+}
+
+#content .widget h2 a {
+	color: #fff;
+}
+#content .widget h2 a:hover {
+	text-decoration: underline;
+}
+
+#content .center {
+	clear: both;
+}
+
+#content .widget ul {
+	list-style: none;
+	margin: 0 14px;
+	padding: 0;
+}
+#content .widget ul li {
+	margin-bottom: 1em;
+}
+#content .widget ul a {
+	line-height: 1em;
+	font-family: "Helvetica Neue", "Trebuchet MS", sans-serif;
+	font-weight: bold;
+	color: #924F0D;
+	letter-spacing: -0.02em;
+}
+#content .widget p.before_content {
+	margin: 0 14px 1em;
+	padding-bottom: .4em;
+	border-bottom: 1px solid #D9D2C7
+}
+#content .widget p.after_content {
+	margin: 0 14px 1em;
+	padding-top: .4em;
+	border-top: 1px solid #D9D2C7
+}
+
+#content .widget_recent_comments a {
+	font-weight: bold;
+}
+
+#navmenu {
+	padding-left: 1em;
+	margin-left: 270px;
+	margin-bottom: 2em;
+}
+
+ul.menu {
+	margin: 2em 0;
+	padding: 48px 0 0 0;
+	list-style-type: none;
+}
+ul.menu.horizontal li {
+	float: left;
+	margin-right: 1.5em; 
+}
+ul.menu.horizontal a {
+	display: block;
+	padding: 0.5em 1em;
+	color: #043D56;
+	font-weight: bold;
+	font-size: 1.1em;
+	height: 42px;
+	border: 2px solid #1881C5;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	text-align: center;
+	background: #FFE05F;
+}
+ul.menu.horizontal a:hover {
+	text-decoration: none;
+	background: #F9C41C;
+}
+#navmenu li.active {
+}
+
+.archive h2.pagetitle {
+	display: none;
+}
+
+#comments {
+	clear: both;
+}
+
+.widget_archive select {
+	margin: .8em 10px;
+}
+
+#footer p {
+	margin: 0;
+}

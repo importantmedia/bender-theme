@@ -1,0 +1,139 @@
+body {
+	background: #0f0e45;
+	font-family: Verdana, Tahoma, "Lucida Grande", Helvetica, "Trebuchet MS", sans-serif;
+}
+
+#header {
+	width: 999px;
+	margin: 0px auto 0 auto;
+	height: 120px;
+	position: relative;
+	background: transparent url(headerbg.png) no-repeat scroll 0 0;
+}
+
+#sitelogo {
+	padding: 27px 20px;
+	width: 477px;
+	height: 52px;
+	display: block;
+}
+
+#top_ad {
+	padding-bottom: 0;
+}
+
+#page {
+	width: 999px;
+	margin: 0 auto;
+}
+
+#content_container {
+	width: 999px;
+	border-top: 20px solid #549317;
+	background: #fff;
+}
+
+#content {
+	margin: 0 auto 0;
+	padding-bottom: 20px;
+	background: #fff;
+	width: 609px;
+}
+
+#footer {
+	border-top: 20px solid #549317;
+	padding-top: 20px;
+	width: 999px;
+	background: #0f0e45 url(footer-corners.png) no-repeat top left;
+	margin: 0 auto;
+	color: #f7f7f7;
+}
+
+#sidebar ul li h2 {
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #444;
+	background: transparent;
+	border-bottom: 1px solid #999;
+	padding: 0;
+}
+
+#sidebar ul li p, #sidebar ul li ul li, #sidebar ul li form {
+	padding-left: 0;
+}
+
+#sidebar ul li div, #sidebar #subscribe p {
+	margin-left: 0;
+}
+
+#side_ad {
+        padding-top: 1em; 
+}
+
+a, a:link, a:visited, a:active {
+	color: #967a14;
+}
+
+a:hover {
+	color: #c6a11a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, serif;
+	letter-spacing: -.05em;
+	color: #333;
+}
+
+.post {
+	padding: 0.5em 1em;
+}
+
+.post h2 {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 0.25em;
+}
+
+.post h2 a, .post h2 a:link, .post h2 a:visited, .post h2 a:active {
+	color: #967A14;
+}
+
+.post h2 a:hover {
+	text-decoration: none;
+}
+
+#menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+}
+
+#menu li {
+	position: relative;
+	float: left;
+	padding: 0;
+	list-style: none;
+	margin: 0 2px;
+	background: #2F4278 url(tab-left.gif) no-repeat top left;
+}
+
+#menu a, #menu a:link, #menu a:visited, #menu a:active {
+	padding: 10px 1.5em 1em 1.5em;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	font-family: "Trebuchet MS", "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	font-weight: bold;
+	display: block;
+	position: relative;
+	line-height: 1em;
+	background: transparent url(tab-right.gif) no-repeat top right;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}

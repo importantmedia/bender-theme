@@ -1,0 +1,90 @@
+body {
+	font-family: "Helvetica Neue","Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+	font-size: 75%;
+}
+
+h1,h2,h3,h4,h5,h6 { 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a, a:link, a:visited, a:active {
+	color: #318694;
+}
+
+a:hover {
+	color: #86AE31;
+}
+
+#page_container {
+	background: #fff url(bodyBG.png) repeat-x scroll;
+}
+
+#header {
+	position: relative;
+}
+
+#header img {
+	margin: 0;
+}
+
+#header .ad-728x90 {
+	position: absolute;
+	top: 25px;
+	right: 3px;
+	width: 728px;
+	height: 90px;
+}
+
+#content_container {
+	margin-top: 0px;
+	background: transparent url(content-bg.png) repeat-y scroll;
+}
+
+#footer {
+	border-top: 10px solid #318694;
+	clear: both;
+	width: 950px;
+	text-align: center;
+	background-color: #fff;
+}
+
+#footer p {
+	padding: 0;
+	margin: 0;
+}
+
+.post img {
+	border: 1px solid #E2EAE4;
+	background-color: #FFFFFF;
+}
+
+.post h2 {
+	font-size: 2em;
+	line-height: 1.2em;
+	letter-spacing: -.03em;
+	font-weight: bold;
+	border-bottom:1px solid #E2EAE4;
+}
+
+.post h2 a, .post h2 a:link, .post h2 a:visited, .post h2 a:active {
+	color: #318694;
+}
+
+.post h2 a:hover {
+	color: #86AE31;
+	text-decoration: none;
+}
+
+#sidebar ul li h2 {
+	text-transform: uppercase;
+	font-size: 1em;
+	line-height: 1.75em;
+	padding: 2px 0 0 8px;
+	color: #fff;
+	background-image: url(sideBarBG.png);
+	background-repeat: repeat-x;
+}
+
+#side_ad {
+        padding-top: 1em; 
+}

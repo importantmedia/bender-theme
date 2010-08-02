@@ -1,0 +1,111 @@
+body {
+	font-family: "Helvetica Neue","Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+	background: #16445C url(bg.png) repeat-x scroll 0 0;
+	font-size: 75%;
+}
+
+a, a:link, a:visited, a:active {
+	color: #16445C;
+}
+
+a:hover {
+	color: #A4CBDD;
+}
+
+#page_container {
+	background: none;
+}
+
+#page {
+	background: #fff url(content-bg.png) repeat-y scroll 0 0; 
+	border: 5px #fff solid;
+	margin-top: 2em;
+	
+}
+
+#header {
+	position: relative;
+}
+
+#header img {
+	margin: 0;
+}
+
+#header .ad-728x90 {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 728px;
+	height: 90px;
+}
+
+#content_container {
+	background: transparent url(content-bg.png) repeat-y scroll 0 0;
+}
+
+#footer {
+	border-top: 10px solid #A4C9D9;
+	clear: both;
+	width: 950px;
+	text-align: center;
+	background: #16445C;
+	color: #fff;
+}
+
+#footer p {
+	padding: 0;
+	margin: 0;
+}
+
+#footer a {
+	color: #A4CBDD;
+}
+
+h1, h2 {
+	font: bold 215%/100% Georgia, Times, serif;
+	letter-spacing: -1px;
+}
+
+.post {
+	background: #fff;
+}
+
+.post img {
+	border: 1px solid #A4CBDD;
+	margin: 0.5em;
+	padding: 9px;
+}
+
+.post img.alignleft {
+	margin: 0 0.5em 0.5em 0 !important;
+	padding: 9px !important;
+}
+
+.post h2 {
+	font-size: 2em;
+	line-height: 1.2em;
+	letter-spacing: -.03em;
+	font-weight: bold;
+}
+
+.post h2 a, .post h2 a:link, .post h2 a:visited, .post h2 a:active {
+	color: #16445C;
+}
+
+.post h2 a:hover {
+	color: #A4CBDD;
+	text-decoration: none;
+}
+
+#sidebar ul li h2 {
+	background-color: transparent;
+	text-transform: none;
+	font-weight: bold;
+	letter-spacing: -.03em;
+	font-size: 1.5em;
+	color: #666;
+}
+
+#side_ad {
+        padding-top: 1em; 
+}

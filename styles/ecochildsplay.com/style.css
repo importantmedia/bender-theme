@@ -1,0 +1,93 @@
+body {
+	background: #FFF url(bodyBG.jpg) repeat;
+	font-family: "Helvetica Neue","Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+	font-size: 75%;
+}
+
+h1,h2,h3,h4,h5,h6 { 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a, a:link, a:visited, a:active {
+	color: #3B8FA5;
+}
+
+a:hover {
+	color: #7D607F;
+}
+
+#header img {
+	margin: 0;
+}
+
+h1 {
+	font-size: 3em;
+	line-height: 0;
+	margin-bottom: 0;
+}
+
+#page {
+	background-color: #FFF;
+	padding: 0;
+}
+
+#content_container {
+	background: #fff url(content-bg.png) repeat-y;
+}
+
+.post {
+	background: #fff;
+}
+
+.postactions {
+	border-bottom: 1px solid #ABD9FB;
+	border-top: 1px solid #ABD9FB;
+}
+
+.post h2 {
+	font: bold Georgia, Times, serif !important;
+	color: #7D607F !important;
+	font-size: 2em;
+	border-bottom:1px solid #ECECE5;
+	line-height: 1.2em;
+	letter-spacing: -.03em;
+	font-weight: bold;
+	padding-bottom: 0.3em;
+}
+
+.post h2 a:hover {
+	color: #666;
+	text-decoration: none;
+}
+
+.post img {
+	border: 1px solid #ABD9FB;
+	background-color:#D6EAF0;
+	padding: 6px;
+}
+
+#sidebar ul li h2 {
+	text-transform: uppercase;
+	font-size: 1em;
+	line-height: 1.75em;
+	padding: 2px 0 0 8px;
+	color: #FFFFFF;
+	border-bottom: 1px solid #E1B8E4;
+	background-color: #7D607F;
+}
+
+#side_ad {
+        padding-top: 1em; 
+}
+
+#footer {
+	border-top: 5px solid #3B8FA5;
+	padding-bottom: none;
+	text-align: center;
+	background: #fff;
+}
+
+#footer p {
+	padding: 0;
+	margin: 0;
+}
